@@ -1,0 +1,172 @@
+/* body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+div {
+    height: 100vh;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    font-size: 60px;
+    background: gray;
+    padding: 8px 20px 8px 20px;
+    border-radius: 16px;
+}
+
+div:nth-child(1){
+    background-image: url(img/NationalGeographic_1467467.jpg);
+    background-size: cover;
+}
+
+div:nth-child(2){
+    background-color: cadetblue;
+}
+
+div:nth-child(3){
+    height: 400px;
+    background-image: url(img/foto2.jpg);
+    background-size: cover;
+}
+
+div:nth-child(4){
+    background-color: cyan;
+} */
+
+body {
+    height: 3000px;
+}
+
+/* header {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#gambar1 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+#gambar2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#move {
+    width: 100%;
+    height: 100vh;
+}
+
+#move h1 {
+    display: block;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
+    top: 100px;
+}
+
+#move .frame {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    padding: 20px;
+    opacity: 0,5;
+    overflow: hidden;
+    background: white;
+    top: 120px;
+    text-align: justify;
+}
+
+.data {
+    position: absolute;
+    left: 400px;
+}
+
+#move .frame p {
+    position: relative;
+    color: #3f3f3f;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+#karakter {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#karakter h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+    margin: 50px;
+}
+
+#char {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    border-radius: 20px;
+    border: solid 1px #000000;
+}
+
+#buu {
+    /* left: 230px; */
+    background-image: url(../img/f.png);
+    background-position: 350px 0;
+}
+
+#bez {
+    /* left: 50px;
+    top: 320px; */
+    background-image: url(img/f.png);
+    background-position: 325px -50px;
+}
+
+#cell {
+    left: 50px;
+    top: 320px;
+    background-image: url(img/f.png);
+    background-position: 325px -50px;
+}
+
+#kame {
+    left: 230px;
+    top: 320px;
+    background-image: url(img/f.png);
+    background-position: 380px -10px;
+}
+
+#son {
+    left: 500px;
+    top: 500px;
+    background-image: url(img/f.png);
+    background-position: 50px -10px;
+}
+
+#pic {
+    left: 230px;
+    top: 500px;
+    background-image: url(img/f.png);
+    background-position: 150px -50px;
+}
+
+#preview {
+    height: 500px;
+    width: 500px;
+    background-image: url(img/f.png);
+    border: solid 1px #808080;
+    position: relative;
+    left: 600px;
+}
